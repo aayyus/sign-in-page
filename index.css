@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  ---Grayish-Blue: hsl(246, 25%, 77%);
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.left-half {
+    color: white;
+  padding: 7rem;
+  width: 50%;
+}
+
+.right-half {
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.trial{
+  color: white;
+  background-color: var(--Blue);
+  margin-bottom: 15px;
+    height: 45px;
+    border-radius: 12px;
+    border-color: transparent;
+    box-shadow: hsla(251, 5%, 43%, 0.5) 0px 5px;
+}
+.input-box {
+  border-radius: 10px;
+
+  height: 25rem;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input-box span{
+  color: var(--Red);
+  font-size: 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 17rem;
+}
+.a,.b,.c,.d{
+  border-radius:5px;
+  border: 2px solid var(--Red);
+  padding:8px;
+}
+
+.claim{
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--Green);
+  border: none;
+  color: white;
+  box-shadow: hsla(129, 30%, 51%, 0.5) 0px 5px;
+
+}
